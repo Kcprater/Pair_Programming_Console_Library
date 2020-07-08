@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace Pair_Programming_Console
 {
-    public enum difficultyOne
+    public enum DifficultyOne
     {
         Documentaries = 1,
 
     }
 
-    public enum difficultyTwo
+    public enum DifficultyTwo
     {
 
     }
 
-    public enum difficultyThree
+    public enum DifficultyThree
     {
 
-    }
 
+    }
     public class PlayerRepo
     {
-        public string GetRandomWord(string word)
+        public difficultyOne GetRandomWord(string word)
         {
             //if user input = 1 {
  
@@ -77,6 +77,4 @@ namespace Pair_Programming_Console
 //method to check if guess is correct
 //method to alternate turns
 //method to alert users if draw and display "word"
-
-
 //*** method to alternate difficulties (time permitting)
